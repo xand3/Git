@@ -60,11 +60,30 @@ Se usarmos o comando `git status` uma mensagem como essa será mostrada:
 ![image](https://user-images.githubusercontent.com/84591023/155601776-7db9a478-c2de-4da9-99e6-33ababd46b74.png)
 
 
-Para adicionarmos esse arquivo ao Git usamos o comando `git add NomeDoArquivo.SuaExtensão` então se quiséssemos adicionar um arquivo chamado "index.html" o comando seria: `git add index.html`, ou o comando `git add -A` esse comando adiciona todos os arquivos novos que você criou sem precisar especificar o nome de cada um. O comando `git add` não retorna nenhuma saida, mas se usarmos de novo o `git status`, veremos que temos um novo arquivo.
+Para adicionarmos esse arquivo ao Git usamos o comando `git add NomeDoArquivo.SuaExtensão` então se quiséssemos adicionar um arquivo chamado "index.html" o comando seria: `git add index.html`, ou o comando `git add -A` esse comando adiciona todos os arquivos novos que você criou sem precisar especificar o nome de cada um.
+
+O comando `git add` não retorna nenhuma saida, mas se usarmos de novo o `git status`, veremos que temos um novo arquivo.
 
 ![image](https://user-images.githubusercontent.com/84591023/155602299-6140d2e1-0a42-416d-8416-5c3166966e41.png)
 
-Apartir de agora o nosso arquivo está sendo monitorado e todas as suas modificações serão registradas e informadas pelo Git. 
+Apartir de agora o nosso arquivo está sendo monitorado e todas as suas modificações serão registradas e informadas pelo Git.
+O próximo passo agora é commitar sobre a adição desse arquivo, fazendo com que o status desse arquivo se torne Staged.
+O Comando para fazer commits é `git commit -m "ComentarioSobreOCommit"` veja o exemplo de commit adicionando o arquivo index.html.
+
+![image](https://user-images.githubusercontent.com/84591023/155603952-c0661b4d-4c9a-49fe-8cc5-213f21f29553.png)
+
+A mensagem que é mostrada em seguida diz quantos arquivos foram modificados, quantas linhas de código foram escritas, e quantas foram deletadas.
+Pronto com as modificações concluidas podemos commitar para um repositório remoto no GitHub, depois de criar sua conta, vá até repositórios e Crie um novo repositório, adcione informações como um nome, uma descrição do projeto, e defina se quer que ele seja público ou privado.
+Depois de criar o repositório remoto, precisamos conectar ele ao nosso repositório local, para isso iremos copiar o link do repositório remoto e executar o seguinte comando no terminal para linkarmos o nosso repositório local ao remoto: `git remote add origin <link do repositório>`. 
+Feito isso agora temos nosso repositório local totalmente conectado ao remoto no GitHub.
+
+## Enviando e recebendo modificações
+Para enviar mudanças feitas localmente para o nosso repositório remoto, usamos o comando: `git push origin main`, o comando executa um push, que se traduzido é empurre, ou seja empurrar as mudanças para o repositório remoto.
+
+Para trazer para o repositório local mudanças feitas no repositório remoto, usamos o comando: `git pull origin main`, o comando faz um pull, que traduzindo é puxar, ou seja puxa todas as alterações feitas remotamente para localmente. 
+
+**origin** se refere ao nosso repositório remoto, e **main** é o nome do nosso repositório local.
+
 
 
 
