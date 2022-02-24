@@ -45,7 +45,7 @@ Para se iniciar um repositório Git, vá até uma pasta criada para o seu projet
 
 Ou vá até a pasta usando o CMD, aqui no meu GitHub tenho anotações de como navegar por pastas usando o CMD [Acesse aqui.](https://github.com/xand3/CMD)
 
-As telas do Git Bash e do CMD serão parecidas com essas:
+As telas do CMD e do Git Bash serão parecidas com essas:
 <img src="CMDeGIT.png"/>
 
 Note que ambos apontam para a posta do projeto, escolha um dos terminais e vamos começar a digitar os comandos.
