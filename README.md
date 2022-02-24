@@ -43,12 +43,12 @@ Para se iniciar um repositório Git, vá até uma pasta criada para o seu projet
 
 <img src="novoprojeto.png"/>
 
-ou vá até a pasta usando o CMD, aqui no meu GitHub tenho anotações de como navegar por pastas usando o CMD [Acesse aqui.](https://github.com/xand3/CMD)
+Ou vá até a pasta usando o CMD, aqui no meu GitHub tenho anotações de como navegar por pastas usando o CMD [Acesse aqui.](https://github.com/xand3/CMD)
 
 As telas do Git Bash e do CMD serão parecidas com essas:
 <img src="CMDeGIT.png"/>
 
-note que ambos apontam para a posta do projeto, escolha um dos terminais e vamos começar a digitar os comandos.
+Note que ambos apontam para a posta do projeto, escolha um dos terminais e vamos começar a digitar os comandos.
 
 ### Comandos 
 O comando para iniciar o repositório é o `git init`. Ao clicar Enter você verá uma mensagem parecida com essa "Initialized empty Git repository in C:/Users/Alexandre/Documents/MeusProjetos/novoprojeto/.git/"
@@ -60,7 +60,7 @@ Se usarmos o comando `git status` uma mensagem como essa será mostrada:
 ![image](https://user-images.githubusercontent.com/84591023/155601776-7db9a478-c2de-4da9-99e6-33ababd46b74.png)
 
 
-para adicionarmos esse arquivo ao Git usamos o comando `git add NomeDoArquivo.SuaExtensão` então se quiséssemos adicionar um arquivo chamado "index.html" o comando seria: `git add index.html`, ou o comando `git add -A` esse comando adiciona todos os arquivos novos que você criou sem precisar especificar o nome de cada um. O comando `git add` não retorna nenhuma saida, mas se usarmos de novo o `git status`, veremos que temos um novo arquivo.
+Para adicionarmos esse arquivo ao Git usamos o comando `git add NomeDoArquivo.SuaExtensão` então se quiséssemos adicionar um arquivo chamado "index.html" o comando seria: `git add index.html`, ou o comando `git add -A` esse comando adiciona todos os arquivos novos que você criou sem precisar especificar o nome de cada um. O comando `git add` não retorna nenhuma saida, mas se usarmos de novo o `git status`, veremos que temos um novo arquivo.
 
 ![image](https://user-images.githubusercontent.com/84591023/155602299-6140d2e1-0a42-416d-8416-5c3166966e41.png)
 
