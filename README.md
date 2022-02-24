@@ -48,5 +48,26 @@ ou vá até a pasta usando o CMD, aqui no meu GitHub tenho anotações de como n
 As telas do Git Bash e do CMD serão parecidas com essas:
 <img src="CMDeGIT.png"/>
 
+note que ambos apontam para a posta do projeto, escolha um dos terminais e vamos começar a digitar os comandos.
+
+### Comandos 
+O comando para iniciar o repositório é o `git init`. Ao clicar Enter você verá uma mensagem parecida com essa "Initialized empty Git repository in C:/Users/Alexandre/Documents/MeusProjetos/novoprojeto/.git/"
+Outro comando importantíssimo e que será muito usado é o `git status`, Esse comando serve para sabermos o status dos nossos arquivos presentes no projeto, e recomendações do que fazer.
+
+Digamos que você criou um novo arquivo na pasta do seu projeto, nesse momento esse arquivo está Untracked, ou sejá não está sendo monitorado pelo Git.
+Se usarmos o comando `git status` uma mensagem como essa será mostrada:
+
+![image](https://user-images.githubusercontent.com/84591023/155601776-7db9a478-c2de-4da9-99e6-33ababd46b74.png)
+
+
+para adicionarmos esse arquivo ao Git usamos o comando `git add NomeDoArquivo.SuaExtensão` então se quiséssemos adicionar um arquivo chamado "index.html" o comando seria: `git add index.html`, ou o comando `git add -A` esse comando adiciona todos os arquivos novos que você criou sem precisar especificar o nome de cada um. O comando `git add` não retorna nenhuma saida, mas se usarmos de novo o `git status`, veremos que temos um novo arquivo.
+
+![image](https://user-images.githubusercontent.com/84591023/155602299-6140d2e1-0a42-416d-8416-5c3166966e41.png)
+
+Apartir de agora o nosso arquivo está sendo monitorado e todas as suas modificações serão registradas e informadas pelo Git. 
+
+
+
+
 
 
