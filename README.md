@@ -39,5 +39,7 @@ Um arquivo está com status Staged quando ele está pronto, ou seja já está se
 
 # Iniciando um repositório Git
 
-Para se iniciar um repositório Git, vá até uma pasta criada para o seu projeto, dentro dela, pressione o botão direito do seu mouse e vá até a opção 
+Para se iniciar um repositório Git, vá até uma pasta criada para o seu projeto, dentro dela, pressione o botão direito do seu mouse e vá até a opção **Git Bash Here**
+<img src="novoprojeto.png"/>
+
 
